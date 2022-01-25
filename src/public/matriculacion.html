@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta charset="utf-8" />
+    <title>DATOS DE MATRICULACION</title>
+</head>
+<body>                     
+           <form  action="/index" method="post" name="form">  
+                    <h1>TRIGGER DE MATRICULACIÓN</h1><br> 
+                    <P>
+                        <label for=""> Id niño</label>
+                        <input type="number" name="id_nino" maxlength="5" required >
+                        
+                    </P>  
+                    <P>
+                        <label for="">id matricula</label>
+                        <input type="number" name="id_matricula" maxlength="5" required >
+                        
+                    </P>  
+                    <P>
+                        <label for="">Fecha de matricula</label>
+                        <input type="date" name="fech_matricula" maxlength="50"   required>                  
+                    </P> 
+                    <p>
+                        <label for="">graduado</label>
+                        <input type="boolean" name="graduado"  maxlength="2"  required>
+                    </p>   
+                    <p>
+                        <label for="">retirado</label>
+                        <input type="boolean" name="retirado"  maxlength="2"  required>
+                    </p>
+
+                     <br>
+                    <button type="submit">
+                        Enviar</button>               
+                     </div>                                                
+            </form>  
+  </body>
+</html>
